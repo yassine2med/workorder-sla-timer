@@ -2,6 +2,8 @@
 
 # workorder-sla-timer
 
+[![CI](https://github.com/yassine2med/workorder-sla-timer/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/workorder-sla-timer/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Service-level targets for work orders are written in business hours: an emergency in 4 hours, a routine job in 3 days. A ticket opened at 3:30 pm on a Monday does not breach at 7:30 pm. It breaches at 10:30 am Tuesday. Spreadsheets that subtract timestamps get this wrong, so breaches are found late. This tool computes the real deadline for each ticket from a working calendar and reports which open tickets are fine, at risk or already breached.
 
 ## Install
