@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="workorder-sla-timer" width="100%"></p>
+
 # workorder-sla-timer
 
 Service-level targets for work orders are written in business hours: an emergency in 4 hours, a routine job in 3 days. A ticket opened at 3:30 pm on a Monday does not breach at 7:30 pm. It breaches at 10:30 am Tuesday. Spreadsheets that subtract timestamps get this wrong, so breaches are found late. This tool computes the real deadline for each ticket from a working calendar and reports which open tickets are fine, at risk or already breached.
